@@ -1,5 +1,5 @@
 from app.backend.db import Base
-from sqlalchemy import Column, Integer, String, Boolean, ForeignKey # New
+from sqlalchemy import Column, Integer, String, Boolean, ForeignKey
 from sqlalchemy.orm import relationship
 from app.models.products import Product
 from sqlalchemy.schema import CreateTable
